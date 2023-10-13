@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 
 
 :root {
@@ -26,22 +26,23 @@ main {
 .wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 18rem;
+    max-width: 20rem;
 }
 
 .iconHeader {
     /* height: 200px; */
-    padding: 45px;
+    padding: 30px;
 }
 
 .spotify-icon {
-    height: 50px;
+    height: 40px;
 }
 
 .title {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.7rem;
     margin-top: 0px;
+    /* line-height: 3.5rem; */
     /* max-width: 16ch; */
     max-width: 100%;
     overflow: hidden;
@@ -57,7 +58,8 @@ form {
 }
 
 .email_label {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 
@@ -86,7 +88,7 @@ form {
     border: none;
     border-radius: 5rem;
     font-weight: 800;
-    padding: 0.7rem;
+    padding: 0.8rem;
     cursor: pointer;
 }
 
@@ -99,12 +101,16 @@ form {
     font-size: 0.9rem;
 }
 
+.bottomDivider > :hover{
+    border: 1px solid #ffffff;
+}
+
 .google {
     margin-bottom: 0.5rem;
 }
 
 .facebook {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -121,8 +127,20 @@ form {
 
 /* this part has to change too */
 .bottomDivider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     border-bottom: 1px solid #292929;
 }
 
+.accountConf {
+    text-align: center;
+    font-weight: 400;
+    color: #919090;
+}
 
+.logInHere {
+    text-decoration: underline;
+    color: #ffffff;
+}
