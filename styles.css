@@ -80,6 +80,8 @@ form {
 .next {
     background-color: var(--spotify-green);
     font-size: 1rem;
+    padding: 0.8rem;
+    margin-top: 10px;
 }
 
 .next,
@@ -88,12 +90,18 @@ form {
     border: none;
     border-radius: 5rem;
     font-weight: 800;
-    padding: 0.8rem;
     cursor: pointer;
 }
 
 .google,
 .facebook {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 55px;
+    padding: 0.7rem 0 0.7rem 1rem;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
     width: 100%;
     border: 1px solid #919090;
     background-color: transparent;
@@ -113,6 +121,10 @@ form {
     margin-bottom: 2rem;
 }
 
+.googleLogo,
+.facebookLogo {
+    height: 25px;
+}
 
 .dividerText {
     text-align: center;
@@ -125,7 +137,6 @@ form {
     padding: 0px 10px;
 }
 
-/* this part has to change too */
 .bottomDivider {
     display: flex;
     flex-direction: column;
@@ -144,3 +155,9 @@ form {
     text-decoration: underline;
     color: #ffffff;
 }
+
+
+/* 
+<a target="_blank" href="https://icons8.com/icon/17949/logo-de-google">Logo de Google</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/118497/facebook-nuevo">Facebook Nuevo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+*/
