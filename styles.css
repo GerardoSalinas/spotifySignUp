@@ -20,7 +20,6 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* height: 110vh;no es necesario */
 }
 
 .wrapper {
@@ -30,7 +29,6 @@ main {
 }
 
 .iconHeader {
-    /* height: 200px; */
     padding: 30px;
 }
 
@@ -42,8 +40,6 @@ main {
     font-weight: 900;
     font-size: 2.7rem;
     margin-top: 0px;
-    /* line-height: 3.5rem; */
-    /* max-width: 16ch; */
     max-width: 100%;
     overflow: hidden;
 }
@@ -52,9 +48,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    /* justify-content: space-between; */
     /* max-width: ; */
-
 }
 
 .email_label {
@@ -100,8 +94,6 @@ form {
     align-items: center;
     gap: 55px;
     padding: 0.7rem 0 0.7rem 1rem;
-    /* flex-direction: column; */
-    /* align-items: flex-end; */
     width: 100%;
     border: 1px solid #919090;
     background-color: transparent;
@@ -155,9 +147,3 @@ form {
     text-decoration: underline;
     color: #ffffff;
 }
-
-
-/* 
-<a target="_blank" href="https://icons8.com/icon/17949/logo-de-google">Logo de Google</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-<a target="_blank" href="https://icons8.com/icon/118497/facebook-nuevo">Facebook Nuevo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-*/
