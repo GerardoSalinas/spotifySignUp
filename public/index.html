@@ -15,7 +15,7 @@
             <p class="title">Sign up to start listening</p>
             <form action="/guardar" method="post">
                 <label class="email_label" for="email_address">Email address</label>
-                <input name="email" type="email" id="email_address" placeholder="name@domain.com" >
+                <input name="email" type="email" id="email_address" placeholder="name@domain.com" minlength="10" maxlength="80" required>
                 <button name="next" class="next" type="submit">Next</button>
                 <h5 class="dividerText" ><span class="dividerSpan" >or</span></h5>
                 <div class="bottomDivider">
