@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Sign Up</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="iconHeader">
@@ -13,10 +13,10 @@
     <main>
         <div class="wrapper">
             <p class="title">Sign up to start listening</p>
-            <form action="" method="post">
+            <form action="/guardar" method="post">
                 <label class="email_label" for="email_address">Email address</label>
-                <input type="email" id="email_address" placeholder="name@domain.com" >
-                <button class="next" type="submit">Next</button>
+                <input name="email" type="email" id="email_address" placeholder="name@domain.com" >
+                <button name="next" class="next" type="submit">Next</button>
                 <h5 class="dividerText" ><span class="dividerSpan" >or</span></h5>
                 <div class="bottomDivider">
                     <button class="google" type="button" ><img class="googleLogo" src="./sources/icons8-logo-de-google.svg" alt="google logo">
