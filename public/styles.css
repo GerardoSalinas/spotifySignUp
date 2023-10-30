@@ -75,6 +75,25 @@ form {
     border-width: 2px 1px 1px 2px;
 }
 
+#email_address:invalid {
+    border-color: #e91429;
+}
+
+#errorBlock {
+    display: none;
+}
+
+.exclamation {
+    color: #e35966;
+    margin-right: 4px;
+}
+
+#invalidMessage {
+    color: #e35966;
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
 .next {
     background-color: var(--spotify-green);
     font-size: 1rem;
