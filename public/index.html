@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <header class="iconHeader">
+        <img class="spotify-icon" src="./sources/spotifyLogo_white.svg" alt="spotify logo">
+    </header>
+    <main>
+        <div class="wrapper">
+            <p class="title">Sign up to start listening</p>
+            <form action="/guardar" method="post">
+                <label class="email_label" for="email_address">Email address</label>
+                <input name="email" type="email" id="email_address" placeholder="name@domain.com" minlength="10" maxlength="80">
+                <div id="errorBlock" >
+                    <i class="fa-solid fa-circle-exclamation exclamation"></i>
+                    <p id="invalidMessage">This email is invalid. Make sure it's written like example@email.com</p>
+                </div>
+                <button name="next" class="next" type="submit">Next</button>
+                <h5 class="dividerText" ><span class="dividerSpan" >or</span></h5>
+                <div class="bottomDivider">
+                    <button class="google" type="button" ><img class="googleLogo" src="./sources/icons8-logo-de-google.svg" alt="google logo">
+                        Sign up with google</button>
+                    <button class="facebook" type="button" ><img class="facebookLogo" src="./sources/icons8-facebook-nuevo.svg" alt="facebook logo">
+                        Sign up with facebook</button>
+                </div>
+                <p class="accountConf" >Already have an account? <span class="logInHere" >Log in here</span></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+
+:root {
+    --background-color: #121212;
+    --font-white: #ffffff;
+    --spotify-green: #1fdf64;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-white);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+}
+
+.iconHeader {
+    padding: 30px;
+}
+
+.spotify-icon {
+    height: 40px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 2.7rem;
+    margin-top: 0px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.email_label {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+#email_address {
+    color: #a6a6a6;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border: 1px solid #919090;
+}
+
+#email_address:hover {
+    border: 1px solid #ffffff;
+}
+
+#email_address:focus {
+    outline: none;
+    border-width: 2px 1px 1px 2px;
+}
+
+#email_address:invalid {
+    border-color: #e91429;
+}
+
+#errorBlock {
+    display: none;
+}
+
+.exclamation {
+    color: #e35966;
+    margin-right: 4px;
+}
+
+#invalidMessage {
+    color: #e35966;
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+.next {
+    background-color: var(--spotify-green);
+    font-size: 1rem;
+    padding: 0.8rem;
+    margin-top: 10px;
+}
+
+.next,
+.google,
+.facebook {
+    border: none;
+    border-radius: 5rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.google,
+.facebook {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 55px;
+    padding: 0.7rem 0 0.7rem 1rem;
+    width: 100%;
+    border: 1px solid #919090;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.bottomDivider > :hover{
+    border: 1px solid #ffffff;
+}
+
+.google {
+    margin-bottom: 0.5rem;
+}
+
+.facebook {
+    margin-bottom: 2rem;
+}
+
+.googleLogo,
+.facebookLogo {
+    height: 25px;
+}
+
+.dividerText {
+    text-align: center;
+    border-bottom: 1px solid #727272;
+    line-height: 0.1rem;
+}
+
+.dividerSpan {
+    background-color: var(--background-color);
+    padding: 0px 10px;
+}
+
+.bottomDivider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #292929;
+}
+
+.accountConf {
+    text-align: center;
+    font-weight: 400;
+    color: #919090;
+}
+
+.logInHere {
+    text-decoration: underline;
+    color: #ffffff;
+}
